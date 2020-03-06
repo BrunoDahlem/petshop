@@ -1,0 +1,139 @@
+/*geral.css*/
+*{
+	outline:none !important;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	background: url(../img/bg-pet-2.jpg);
+}
+header {
+	background: #000000;
+	min-height: 100px;
+	width:100%;
+}
+.container {
+	/*border:1px solid red;*/
+	width:100%;
+	margin:0 auto;
+	padding-top:10px;
+}
+.logo {
+	float:left;
+}
+
+.corfundo{
+	color:#ffffff;
+}
+.container img, .container h1 {
+	float:left;
+}
+.container h1 {
+	margin-left:40px;
+	text-transform:uppercase;
+}
+.menu {
+	clear:both;
+}
+.menu a {
+	color:#ffffff;
+	width:33.111%;
+	display:inline-block;
+	padding:10px 0 10px 0;
+	text-align:center;
+	text-decoration:none;
+	transition:background 2s;
+}
+.menu a:first-child {
+	border-bottom:4px solid #fad100
+}
+.menu a:first-child:hover {
+	background:#fad100;
+	color:black;
+}
+.menu a:nth-child(2) {
+	border-bottom:4px solid #71d400;
+}
+.menu a:nth-child(2):hover {
+	background:#71d400;
+	color:black;
+}
+.menu a:last-child {
+	border-bottom:4px solid #cd1fce
+}
+.menu a:last-child:hover {
+	background:#cd1fce;
+	color:black;
+}
+.menu a:hover {
+	transition:background 2s, color 2s;
+}
+footer {
+	background:#000000;
+	height:100%;
+	color:#ffffff;
+	text-align:center;
+	padding:1.5px 0 1.5px 0;
+	width:100%;
+	bottom:0;
+}
+.colun {
+	width:33.3333%;
+	height:100%;
+	float:left;
+}
+.colun-2 {
+	width:50%;
+	height:100%;
+	float:left;
+}
+.colun-2-2 {
+	width:50%;
+	height:100%;
+	float:left;
+	margin-bottom:50px;
+}
+.colunborder {
+	width:33.3333%;
+	height:100%;
+	float:left;
+	border:2px solid #000000;
+	padding:50px;
+	background:#dda0dd;
+}
+.colun-2-center {
+	width:50%;
+	height:100%;
+	float:left;
+	text-align:center;
+}
+.colun-2-center h1 {
+	text-align:center;
+	margin-left:33.33%;
+	margin-right:33.33%;
+}
+.up {
+	text-transform:uppercase;
+	text-align:center;
+}
+.esp {
+	margin-right:20px;
+}
+.meio {
+	margin:0 auto;
+	padding:20px;
+	text-align: center;	
+}
+.line {
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	min-height: 100px;
+}
+.divisao {
+	min-height:50px ;
+	
+}
+/* HELPER */
+.clear { clear:both }
